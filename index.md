@@ -1,96 +1,84 @@
 ---
 layout: default
-title: Home
+title: An Introduction to Information Security 
 nav_order: 1
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 permalink: /
 ---
+## NIST Special Publication 800-12
 
-# Focus on writing good documentation
-{: .fs-9 }
+## Revision 1
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
+# An Introduction to Information Security
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
-
----
-
-## Getting started
-
-### Dependencies
-
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
-
-### Quick start: Use as a GitHub Pages remote theme
-
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
 ```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+Michael Nieles 
+Kelley Dempsey 
+Victoria Yan Pillitteri 
+Computer Security Division 
+Information Technology Laboratory 
 
-### Local installation: Use the gem-based theme
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
+This publication is available free of charge from:
+https://doi.org/10.6028/NIST.SP.800-12r1
+
+June 2017
+
+
+U.S. Department of Commerce
+Wilbur L. Ross, Jr., Secretary
+
+
+National Institute of Standards and Technology
+Kent Rochford, Acting NIST Director and Under Secretary of Commerce for Standards and Technology
+
 ```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+### Authority
 
-### Configure Just the Docs
+This publication has been developed by NIST in accordance with its statutory responsibilities under the Federal Information Security Modernization Act (FISMA) of 2014, 44 U.S.C. § 35 51 et seq., Public Law (P.L.) 113-283. NIST is responsible for developing information security standards and guidelines, including minimum requirements for federal systems, but such standards and guidelines shall not apply to national security systems without the express approval of appropriate federal officials exercising policy authority over such systems. This guideline is consistent with the requirements of the Office of Management and Budget (OMB) Circular A-130.
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+Nothing in this publication should be taken to contradict the standards and guidelines made mandatory and binding on federal agencies by the Secretary of Commerce under statutory authority. Nor should these guidelines be interpreted as altering or superseding the existing authorities of the Secretary of Commerce, Director of the OMB, or any other federal official. This publication may be used by nongovernmental organizations on a voluntary basis and is not subject to copyright in the United States. Attribution would, however, be appreciated by NIST.
 
----
 
-## About the project
+National Institute of Standards and Technology Special Publication 800-12 Revision 1
+Natl. Inst. Stand. Technol. Spec. Publ. 800-12 Rev. 1, 101 pages (June 2017)
+CODEN: NSPUE
 
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
 
-### License
+This publication is available free of charge from:
+https://doi.org/10.6028/NIST.SP.800-12r1
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+`Certain commercial entities, equipment, or materials may be identified in this document in order to describe an experimental procedure or concept adequately. Such identification is not intended to imply recommendation or endorsement by NIST, nor is it intended to imply that the entities, materials, or equipment are necessarily the best available for the purpose.`
 
-### Contributing
+`There may be references in this publication to other publications currently under development by NIST in accordance with its assigned statutory responsibilities. The information in this publication, including concepts and methodologies, may be used by federal agencies even before the completion of such companion publications. Thus, until each publication is completed, current requirements, guidelines, and procedures, where they exist, remain operative. For planning and transition purposes, federal agencies may wish to closely follow the development of these new publications by NIST.`
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+`Organizations are encouraged to review all draft publications during public comment periods and provide feedback to NIST. Many NIST cybersecurity publications, other than the ones noted above, are available at`
+`[http://csrc.nist.gov/publications.](http://csrc.nist.gov/publications.)`
 
-#### Thank you to the contributors of Just the Docs!
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
+**Comments on this publication may be submitted to:**
 
-### Code of Conduct
+National Institute of Standards and Technology
+Attn: Computer Security Division, Information Technology Laboratory
+100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-
+Email: sec-cert@nist.gov
 
-Just the Docs is committed to fostering a welcoming community.
+All comments are subject to release under the Freedom of Information Act (FOIA).
 
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+### Reports on Computer Systems Technology
+
+The Information Technology Laboratory (ITL) at the National Institute of Standards and Technology (NIST) promotes the U.S. economy and public welfare by providing technical leadership for the Nation’s measurement and standards infrastructure. ITL develops tests, test methods, reference data, proof of concept implementations, and technical analyses to advance the development and productive use of information technology. ITL’s responsibilities include the development of management, administrative, technical, and physical standards and guidelines for the cost-effective security and privacy of other than national security-related information in federal systems. The Special Publication 800-series reports on ITL’s research, guidelines, and outreach efforts in systems security as well as its collaborative activities with industry, government, and academic organizations.
+
+### Abstract
+
+Organizations rely heavily on the use of information technology (IT) products and services to run their day to-day activities. Ensuring the security of these products and services is of the utmost importance for the success of the organization. This publication introduces the information security principles that organizations may leverage to understand the information security needs of their respective systems.
+
+### Keywords
+
+assurance; computer security; information security; introduction; risk management; security controls; security requirements
+
+### Acknowledgements
+
+The authors would like to thank everyone who took the time to review and make comments on the draft of this publication, specifically Celia Paulsen, Ned Goren, Isabel Van Wyk, and Rathini Vijayaverl of the National Institute of Standards and Technology (NIST). The authors would also like to acknowledge the original authors, Barbara Guttman and Edward A. Roback, as well as all those individuals who contributed to the original version of this publication.
+
