@@ -43,7 +43,7 @@ Nothing in this publication should be taken to contradict the standards and guid
 
 National Institute of Standards and Technology Special Publication 800-12 Revision 1
 Natl. Inst. Stand. Technol. Spec. Publ. 800-12 Rev. 1, 101 pages (June 2017)
-CODEN: NSPUE
+CODE N: NSPUE2
 
 
 This publication is available free of charge from:
